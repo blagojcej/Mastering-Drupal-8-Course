@@ -1,0 +1,20 @@
+global-styling:
+  version: 1.x
+  css:
+    component:
+      css/components/main-content.css: {}
+      css/components/sidebar.css: {}
+
+front-page:
+  version: 1.x
+  css:
+    theme:
+      css/theme/front-page.css: {}
+  dependencies:
+    - md8d/global-styling
+
+book-page:
+  version: 1.x
+  css:
+    theme:
+      css/theme/book-page.css: {}

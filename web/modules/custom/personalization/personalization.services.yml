@@ -1,0 +1,4 @@
+services:
+  personalization.personalization_ip_service:
+    class: Drupal\personalization\PersonalizationIpService
+    arguments: ['@request_stack']

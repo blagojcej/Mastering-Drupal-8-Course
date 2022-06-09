@@ -1,0 +1,11 @@
+uuid: 2b7687c0-9a34-4111-8e75-4e22c58a5fb7
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.water_eco_action
+id: node.water_eco_action
+target_entity_type_id: node
+target_bundle: water_eco_action
+default_langcode: site_default
+language_alterable: false

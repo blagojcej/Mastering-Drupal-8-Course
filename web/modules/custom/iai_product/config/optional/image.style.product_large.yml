@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: product_large
+label: 'Product Large'
+effects:
+  4feed7fa-b431-4d94-afbc-b45c497016a4:
+    uuid: 4feed7fa-b431-4d94-afbc-b45c497016a4
+    id: image_scale
+    weight: 1
+    data:
+      width: 480
+      height: null
+      upscale: false

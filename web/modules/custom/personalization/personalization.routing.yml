@@ -1,0 +1,7 @@
+personalization.display_ip_address:
+  path: '/personalization/show_my_ip'
+  defaults:
+    _controller: '\Drupal\personalization\Controller\DisplayIpAddress::getIpAddress'
+    _title: 'What is my Ip Address?'
+  requirements:
+    _permission: 'access content'

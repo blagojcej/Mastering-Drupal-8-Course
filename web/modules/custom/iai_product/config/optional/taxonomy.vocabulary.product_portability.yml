@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+name: Portability
+vid: product_portability
+description: ''
+weight: 0

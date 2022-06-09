@@ -1,0 +1,21 @@
+uuid: 433e9b01-eaec-45b1-8c1e-da22c8d2e10a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_wea_status
+    - node.type.water_eco_action
+  module:
+    - options
+id: node.water_eco_action.field_wea_status
+field_name: field_wea_status
+entity_type: node
+bundle: water_eco_action
+label: Status
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

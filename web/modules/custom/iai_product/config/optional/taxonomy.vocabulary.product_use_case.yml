@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'Use Case'
+vid: product_use_case
+description: ''
+weight: 0

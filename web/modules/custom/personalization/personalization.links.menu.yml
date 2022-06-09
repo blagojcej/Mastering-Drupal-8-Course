@@ -1,0 +1,6 @@
+# We are not placing these items in any specific menu. Therefore, they will
+# show up in the default menu: Tools.
+personalization.display_ip_address:
+  title: Display My Ip Address
+  description: 'Display the Ip Address of the current user'
+  route_name: personalization.display_ip_address
